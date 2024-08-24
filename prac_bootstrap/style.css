@@ -1,0 +1,292 @@
+:root{
+    --grey:#e9e9e9;
+    --sec_1_bg_color:#F0F0F0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.josh_font{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    font-size: .75rem;
+
+}
+nav{
+    border-color:var(--grey);
+    position: sticky;
+}
+.insta{
+    color: black;
+    font-size: 24px;
+}
+.gm{
+    width: 200px;
+}
+.se{
+    width: 24px;
+    height: 24px;
+}
+.bar{
+    font-size: 24px;
+}
+.sec_1{
+    background-color: var(--sec_1_bg_color);
+}
+.article{
+    font-size: .75rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+}
+.forty{
+    font-size: 2.375rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+}
+.labels{
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+}
+.read{
+    font-size: .75rem;
+    line-height: 1.2;
+    font-weight: 500;
+    border-radius: 0;
+}
+.niga{
+    width: 100%;
+}
+.internal_icons{
+    list-style-type: none !important;
+}
+.sec_2_article{
+    font-size: 2rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+.edi{
+    font-size: .75rem;
+    line-height: 1.2;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+.ten{
+    font-size: 2.375rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    font-weight: 500;
+}
+.itcomes{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    font-weight: 500;
+}
+.lux{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    /* margin-top: 1rem; */
+}
+/* .the_modern{
+    line-height: 1.5;
+    font-size: 1.625rem;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    padding-inline: 4rem;
+    padding-top: 10rem;
+} */
+/* .modern_button{
+    padding-left: 4rem;
+    margin-top: 1.3rem;
+} */
+.first_cover{
+    background-image: url("https://www.apetogentleman.com/wp-content/uploads/2023/03/PremiumBasicsTees.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.vl {
+    width: 1px;
+    border-left: 1px solid white;
+    height: 4rem;
+    /* margin-top: 7rem;
+    margin-bottom: 3rem; */
+}
+.gl {
+    width: 1px;
+    border-left: 1px solid white;
+    height: 4rem;
+    /* margin-top: 3rem;
+    margin-bottom: 7rem; */
+}
+.fea{
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    font-size: .75rem;
+    line-height: 1.2;
+
+}
+.premium{
+    font-size:1.5rem;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    line-height: 1.5;
+    font-weight: 500;
+}
+.new_features{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+.feat{
+    letter-spacing: .05em;
+    /* font-size: .75rem; */
+line-height: 1.2;
+text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+.smart_casual{
+    /* font-size: 2rem; */
+    letter-spacing: .05em;
+line-height: 1.2;
+text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+.dress_code{
+    /* font-size:1.25rem; */
+    font-weight: 500;
+    line-height: 1.4;
+}
+.second_cover{
+    background-image: url("https://www.apetogentleman.com/wp-content/uploads/2022/05/FALL-WINTER-TRENDS.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+
+}
+.more_read{
+    font-size: 2rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    font-weight: 500;
+}
+.last_bg{
+   background-image: url('https://www.apetogentleman.com/wp-content/uploads/2021/10/footer-desert-desktop.jpg');
+   /* height: 39rem; */
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.sec_grey{
+    background-color: var(--sec_1_bg_color);
+    padding-top: 6rem;
+}
+.bg_transparent{
+    background-color: transparent;
+    border-radius: 0;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    font-weight: 500;
+}
+.monkeytoman{
+    width: 4rem;
+    height: 2rem;
+}
+.spacing_in{
+    width: 10%;
+}
+.last_fix{
+    width: 80%;
+    margin-left: 0;
+    justify-content: space-between;
+}
+.copyright{
+    font-size: .5rem;
+}
+.w-7{
+    width: 9%;
+}
+
+@media screen and (min-width:576px) {
+    .the_modern{
+        line-height: 1.5;
+        font-size: 1.625rem;
+        font-style: italic;
+        font-weight: 500;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+        padding-inline: 4rem;
+        padding-top: 10rem;
+    }
+    .modern_button{
+        padding-left: 4rem;
+        margin-top: 1.3rem;
+    }
+    .vl {
+        width: 1px;
+        border-left: 1px solid white;
+        height: 12rem;
+        margin-top: 7rem;
+        margin-bottom: 3rem;
+    }
+    .gl {
+        width: 1px;
+        border-left: 1px solid white;
+        height: 12rem;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+    .fea{
+        font-weight: 500;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+        font-size: .75rem;
+        line-height: 1.2;
+    
+    }
+    .premium{
+        font-size:2.5rem;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+        line-height: 1.5;
+        font-weight: 500;
+    }
+    .smart_casual{
+        font-size: 2rem;
+        letter-spacing: .05em;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    }
+    .feat{
+        letter-spacing: .05em;
+        font-size: .75rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    }
+    .smart_casual{
+        font-size: 2rem;
+        letter-spacing: .05em;
+    line-height: 1.2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    }
+    .dress_code{
+        font-size:1.25rem;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+    .second_cover{
+        background-image: url("https://www.apetogentleman.com/wp-content/uploads/2022/05/FALL-WINTER-TRENDS.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 45rem;
+    
+    }
+}
